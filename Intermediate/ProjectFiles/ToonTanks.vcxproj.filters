@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ToonTanks.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ToonTanksEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\.ignore" />
+    <None Include="..\..\ToonTanks.code-workspace" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\HoloLens">
+      <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\HoloLens\HoloLensEngine.ini">
+      <Filter>Config\HoloLens</Filter>
+    </None>
+    <Filter Include="Source\ToonTanks">
+      <UniqueIdentifier>{E9525C73-BA96-364D-A0B3-5AA96A156438}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ToonTanks\BasePawn.cpp">
+      <Filter>Source\ToonTanks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ToonTanks\BasePawn.h">
+      <Filter>Source\ToonTanks</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ToonTanks\HealthComponent.cpp">
+      <Filter>Source\ToonTanks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ToonTanks\HealthComponent.h">
+      <Filter>Source\ToonTanks</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ToonTanks\Projectile.cpp">
+      <Filter>Source\ToonTanks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ToonTanks\Projectile.h">
+      <Filter>Source\ToonTanks</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ToonTanks\Tank.cpp">
+      <Filter>Source\ToonTanks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ToonTanks\Tank.h">
+      <Filter>Source\ToonTanks</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\ToonTanks\ToonTanks.Build.cs">
+      <Filter>Source\ToonTanks</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ToonTanks\ToonTanks.cpp">
+      <Filter>Source\ToonTanks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ToonTanks\ToonTanks.h">
+      <Filter>Source\ToonTanks</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ToonTanks\ToonTanksGameMode.cpp">
+      <Filter>Source\ToonTanks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ToonTanks\ToonTanksGameMode.h">
+      <Filter>Source\ToonTanks</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ToonTanks\ToonTanksPlayerController.cpp">
+      <Filter>Source\ToonTanks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ToonTanks\ToonTanksPlayerController.h">
+      <Filter>Source\ToonTanks</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ToonTanks\Tower.cpp">
+      <Filter>Source\ToonTanks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ToonTanks\Tower.h">
+      <Filter>Source\ToonTanks</Filter>
+    </ClInclude>
+    <Filter Include="Source\ToonTanks\.git">
+      <UniqueIdentifier>{C4FCEF5D-5E22-3F9A-89A6-735A2919158C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks\.git\COMMIT_EDITMSG">
+      <Filter>Source\ToonTanks\.git</Filter>
+    </None>
+    <None Include="..\..\Source\ToonTanks\.git\config">
+      <Filter>Source\ToonTanks\.git</Filter>
+    </None>
+    <None Include="..\..\Source\ToonTanks\.git\description">
+      <Filter>Source\ToonTanks\.git</Filter>
+    </None>
+    <None Include="..\..\Source\ToonTanks\.git\HEAD">
+      <Filter>Source\ToonTanks\.git</Filter>
+    </None>
+    <None Include="..\..\Source\ToonTanks\.git\index">
+      <Filter>Source\ToonTanks\.git</Filter>
+    </None>
+    <None Include="..\..\Source\ToonTanks\.git\ORIG_HEAD">
+      <Filter>Source\ToonTanks\.git</Filter>
+    </None>
+    <None Include="..\..\Source\ToonTanks\.git\packed-refs">
+      <Filter>Source\ToonTanks\.git</Filter>
+    </None>
+    <Filter Include="Source\ToonTanks\.git\hooks">
+      <UniqueIdentifier>{22A5F2EE-19D1-3E5B-9196-7A5D7C375C28}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks\.git\hooks\applypatch-msg.sample">
+      <Filter>Source\ToonTanks\.git\hooks</Filter>
+    </None>
+    <None Include="..\..\Source\ToonTanks\.git\hooks\commit-msg.sample">
+      <Filter>Source\ToonTanks\.git\hooks</Filter>
+    </None>
+    <None Include="..\..\Source\ToonTanks\.git\hooks\fsmonitor-watchman.sample">
+      <Filter>Source\ToonTanks\.git\hooks</Filter>
+    </None>
+    <None Include="..\..\Source\ToonTanks\.git\hooks\post-update.sample">
+      <Filter>Source\ToonTanks\.git\hooks</Filter>
+    </None>
+    <None Include="..\..\Source\ToonTanks\.git\hooks\pre-applypatch.sample">
+      <Filter>Source\ToonTanks\.git\hooks</Filter>
+    </None>
+    <None Include="..\..\Source\ToonTanks\.git\hooks\pre-commit.sample">
+      <Filter>Source\ToonTanks\.git\hooks</Filter>
+    </None>
+    <None Include="..\..\Source\ToonTanks\.git\hooks\pre-merge-commit.sample">
+      <Filter>Source\ToonTanks\.git\hooks</Filter>
+    </None>
+    <None Include="..\..\Source\ToonTanks\.git\hooks\pre-push.sample">
+      <Filter>Source\ToonTanks\.git\hooks</Filter>
+    </None>
+    <None Include="..\..\Source\ToonTanks\.git\hooks\pre-rebase.sample">
+      <Filter>Source\ToonTanks\.git\hooks</Filter>
+    </None>
+    <None Include="..\..\Source\ToonTanks\.git\hooks\pre-receive.sample">
+      <Filter>Source\ToonTanks\.git\hooks</Filter>
+    </None>
+    <None Include="..\..\Source\ToonTanks\.git\hooks\prepare-commit-msg.sample">
+      <Filter>Source\ToonTanks\.git\hooks</Filter>
+    </None>
+    <None Include="..\..\Source\ToonTanks\.git\hooks\push-to-checkout.sample">
+      <Filter>Source\ToonTanks\.git\hooks</Filter>
+    </None>
+    <None Include="..\..\Source\ToonTanks\.git\hooks\update.sample">
+      <Filter>Source\ToonTanks\.git\hooks</Filter>
+    </None>
+    <Filter Include="Source\ToonTanks\.git\info">
+      <UniqueIdentifier>{EBA59FF6-F77C-3819-9DB4-B5D0ABA809A8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks\.git\info\exclude">
+      <Filter>Source\ToonTanks\.git\info</Filter>
+    </None>
+    <Filter Include="Source\ToonTanks\.git\logs">
+      <UniqueIdentifier>{BC141191-F512-39B1-91AB-ADED9894BDD3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks\.git\logs\HEAD">
+      <Filter>Source\ToonTanks\.git\logs</Filter>
+    </None>
+    <Filter Include="Source\ToonTanks\.git\logs\refs">
+      <UniqueIdentifier>{7068B25E-1634-38B5-97EB-B2DF39FA0FEF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ToonTanks\.git\logs\refs\heads">
+      <UniqueIdentifier>{D5E2E1B0-9211-3F39-90F7-B6C74A7E5AB0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks\.git\logs\refs\heads\master">
+      <Filter>Source\ToonTanks\.git\logs\refs\heads</Filter>
+    </None>
+    <Filter Include="Source\ToonTanks\.git\objects">
+      <UniqueIdentifier>{7776C2BC-38C9-31D3-801E-0F93CEF791DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ToonTanks\.git\objects\00">
+      <UniqueIdentifier>{80AA1F03-0B85-36C1-BB38-8311A8405641}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks\.git\objects\00\14f2ac63ad00dc862994f4cb9a65a1d4d2df71">
+      <Filter>Source\ToonTanks\.git\objects\00</Filter>
+    </None>
+    <Filter Include="Source\ToonTanks\.git\objects\0b">
+      <UniqueIdentifier>{FA41EF82-3464-3D69-A7CA-F6C865C20987}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks\.git\objects\0b\6ef640ede9d4709473c7f4d4ba37b52517790f">
+      <Filter>Source\ToonTanks\.git\objects\0b</Filter>
+    </None>
+    <Filter Include="Source\ToonTanks\.git\objects\0d">
+      <UniqueIdentifier>{0933E6AD-DF7D-3300-B778-32D7C4269287}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks\.git\objects\0d\b710b9169bbffde108c4772b1702a61aed3dba">
+      <Filter>Source\ToonTanks\.git\objects\0d</Filter>
+    </None>
+    <Filter Include="Source\ToonTanks\.git\objects\1a">
+      <UniqueIdentifier>{19C60C92-7525-3DDF-AF5A-63F4ECD157E8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks\.git\objects\1a\2e1f5b808d23c333e1922502a6ec471bc88769">
+      <Filter>Source\ToonTanks\.git\objects\1a</Filter>
+    </None>
+    <Filter Include="Source\ToonTanks\.git\objects\1c">
+      <UniqueIdentifier>{47E1FB96-0426-3DC3-BC45-749E40946BA3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks\.git\objects\1c\95f186b4de9c144691babed016e08eaa0df5d4">
+      <Filter>Source\ToonTanks\.git\objects\1c</Filter>
+    </None>
+    <Filter Include="Source\ToonTanks\.git\objects\26">
+      <UniqueIdentifier>{AF3ACD4C-0BB6-398D-B09D-92F07740034F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks\.git\objects\26\bf7f1a8c7880046d6b7bf8cecde6ce02792a72">
+      <Filter>Source\ToonTanks\.git\objects\26</Filter>
+    </None>
+    <Filter Include="Source\ToonTanks\.git\objects\28">
+      <UniqueIdentifier>{D884DEAE-B86B-33EC-BC30-2BFF2BC236F1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks\.git\objects\28\2b7bcef80bcd87715fce96e58aa195248cd149">
+      <Filter>Source\ToonTanks\.git\objects\28</Filter>
+    </None>
+    <Filter Include="Source\ToonTanks\.git\objects\2d">
+      <UniqueIdentifier>{65F7F4BF-89EF-36B9-AAC1-F5BF2B28BF38}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks\.git\objects\2d\7cd38dcdff7a99641e8dc104770fd3d5d7d53d">
+      <Filter>Source\ToonTanks\.git\objects\2d</Filter>
+    </None>
+    <Filter Include="Source\ToonTanks\.git\objects\2f">
+      <UniqueIdentifier>{15DD6A82-025E-3460-83CB-A62EDFD9CA93}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks\.git\objects\2f\c8794f5e7d038e8f72455a9ce147e8d45fec2b">
+      <Filter>Source\ToonTanks\.git\objects\2f</Filter>
+    </None>
+    <Filter Include="Source\ToonTanks\.git\objects\36">
+      <UniqueIdentifier>{AD64F1DD-B8E2-310A-A5ED-7AA19661ECAF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks\.git\objects\36\387df20930e589cf761eb8dce7571da93e9ebe">
+      <Filter>Source\ToonTanks\.git\objects\36</Filter>
+    </None>
+    <Filter Include="Source\ToonTanks\.git\objects\3c">
+      <UniqueIdentifier>{FC944486-6AC4-36CB-9E7F-4B4FBCB4EEFD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks\.git\objects\3c\e799e15b28184300a80aba18c228f16d6957a3">
+      <Filter>Source\ToonTanks\.git\objects\3c</Filter>
+    </None>
+    <Filter Include="Source\ToonTanks\.git\objects\43">
+      <UniqueIdentifier>{4D6C8092-89D3-3B39-97BA-937D9A795492}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks\.git\objects\43\a1f1c0ead911f6d7703724c59e8c7c0de38de1">
+      <Filter>Source\ToonTanks\.git\objects\43</Filter>
+    </None>
+    <Filter Include="Source\ToonTanks\.git\objects\47">
+      <UniqueIdentifier>{F251815E-5875-313E-8C4C-D9FC9D85F704}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks\.git\objects\47\ac8be2c9fd4731ffec26a5fb60037ba286f7e0">
+      <Filter>Source\ToonTanks\.git\objects\47</Filter>
+    </None>
+    <Filter Include="Source\ToonTanks\.git\objects\4c">
+      <UniqueIdentifier>{358E3883-6A32-36F1-888B-154325F34FAA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks\.git\objects\4c\418066c3bccd182bf01a0acf69b4c2d133aa06">
+      <Filter>Source\ToonTanks\.git\objects\4c</Filter>
+    </None>
+    <Filter Include="Source\ToonTanks\.git\objects\52">
+      <UniqueIdentifier>{38598FEB-87EF-3091-99DD-D66251BD3D9D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks\.git\objects\52\838a397712e8323f542a015c80515177d2b4f1">
+      <Filter>Source\ToonTanks\.git\objects\52</Filter>
+    </None>
+    <Filter Include="Source\ToonTanks\.git\objects\55">
+      <UniqueIdentifier>{C0315867-80FE-30DB-90E0-18D4AC4CC2DA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks\.git\objects\55\f254fb158e7ce81ee91c38eab4fcaed8abd202">
+      <Filter>Source\ToonTanks\.git\objects\55</Filter>
+    </None>
+    <Filter Include="Source\ToonTanks\.git\objects\69">
+      <UniqueIdentifier>{6F03602A-77EE-3D76-AF91-6658EC38F862}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks\.git\objects\69\b2f1e669d718da749f96fbcb750a22db5063db">
+      <Filter>Source\ToonTanks\.git\objects\69</Filter>
+    </None>
+    <Filter Include="Source\ToonTanks\.git\objects\6a">
+      <UniqueIdentifier>{D2B1D05B-C89F-35E1-9156-91A1CD228534}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks\.git\objects\6a\f2ddfa10304478c9b7ece474b37ebaa217d076">
+      <Filter>Source\ToonTanks\.git\objects\6a</Filter>
+    </None>
+    <Filter Include="Source\ToonTanks\.git\objects\77">
+      <UniqueIdentifier>{B83F220B-2BCE-37EC-8C79-8E23F3457C4B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks\.git\objects\77\bc7a2dc8dad07d204fe69129afb12608e59e3e">
+      <Filter>Source\ToonTanks\.git\objects\77</Filter>
+    </None>
+    <Filter Include="Source\ToonTanks\.git\objects\7a">
+      <UniqueIdentifier>{F98F2AD2-CF0F-3C35-9C84-31D4F61F468B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks\.git\objects\7a\59a67f11f930804d37a998d22d2ef142a39b80">
+      <Filter>Source\ToonTanks\.git\objects\7a</Filter>
+    </None>
+    <Filter Include="Source\ToonTanks\.git\objects\90">
+      <UniqueIdentifier>{5A1138BA-CF58-3585-87DF-179F921B331E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks\.git\objects\90\aad9e7e22f143662bdcb74de4ca59ffc4f7321">
+      <Filter>Source\ToonTanks\.git\objects\90</Filter>
+    </None>
+    <Filter Include="Source\ToonTanks\.git\objects\b3">
+      <UniqueIdentifier>{8C6AEA1C-6BC0-3C51-9E74-3440531FA047}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks\.git\objects\b3\b5219989d33e4406465ad5e517a6bfadd66994">
+      <Filter>Source\ToonTanks\.git\objects\b3</Filter>
+    </None>
+    <Filter Include="Source\ToonTanks\.git\objects\b9">
+      <UniqueIdentifier>{172341BD-6F63-307F-BE2E-B9D770CEC1AB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks\.git\objects\b9\69ba11fbbf59ca78504d4e52b495666890b1ad">
+      <Filter>Source\ToonTanks\.git\objects\b9</Filter>
+    </None>
+    <Filter Include="Source\ToonTanks\.git\objects\c3">
+      <UniqueIdentifier>{E8B7ABC7-DEE6-3080-95D0-E7FEB40F72C6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks\.git\objects\c3\bab5f8aa3b9fd1be706addbf6bd493f05d323b">
+      <Filter>Source\ToonTanks\.git\objects\c3</Filter>
+    </None>
+    <Filter Include="Source\ToonTanks\.git\objects\da">
+      <UniqueIdentifier>{1B7FFA8A-543D-3438-A402-8E54C527C616}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks\.git\objects\da\083b3ac16de2c34a80637e80066634696f4309">
+      <Filter>Source\ToonTanks\.git\objects\da</Filter>
+    </None>
+    <Filter Include="Source\ToonTanks\.git\objects\de">
+      <UniqueIdentifier>{66037162-74B6-34C6-B7B7-4CF090CF6132}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks\.git\objects\de\a69d876716e7b277421dda66e96d8d9a358b94">
+      <Filter>Source\ToonTanks\.git\objects\de</Filter>
+    </None>
+    <Filter Include="Source\ToonTanks\.git\objects\e0">
+      <UniqueIdentifier>{0330F034-D235-39A3-99A3-CD78BD45D184}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks\.git\objects\e0\f9d17f4dc033f3569a1a2bd1b65bb609d497a2">
+      <Filter>Source\ToonTanks\.git\objects\e0</Filter>
+    </None>
+    <Filter Include="Source\ToonTanks\.git\objects\f4">
+      <UniqueIdentifier>{B61EC232-BC0B-33FB-A3CF-ABA47A451634}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks\.git\objects\f4\b50595f3413e7730ad437fd0fceb726503d30d">
+      <Filter>Source\ToonTanks\.git\objects\f4</Filter>
+    </None>
+    <Filter Include="Source\ToonTanks\.git\objects\f6">
+      <UniqueIdentifier>{F54FFB63-AFA5-3C2C-BF84-4B46582A6F08}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks\.git\objects\f6\a22085b4fa8c2d04b31a55b6fccc3b6977dc3b">
+      <Filter>Source\ToonTanks\.git\objects\f6</Filter>
+    </None>
+    <Filter Include="Source\ToonTanks\.git\refs">
+      <UniqueIdentifier>{A1A328D9-DF11-3C0C-BFE7-FAA9B96741D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ToonTanks\.git\refs\heads">
+      <UniqueIdentifier>{AEDDAF43-5D10-3BC2-8DEF-78440C8C03B4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks\.git\refs\heads\master">
+      <Filter>Source\ToonTanks\.git\refs\heads</Filter>
+    </None>
+  </ItemGroup>
+</Project>
